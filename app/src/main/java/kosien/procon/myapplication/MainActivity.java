@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected String doInBackground(URL... urls) {
-            // 取得したテキストを格納する変数aaa
+            // 取得したテキストを格納aaする変数aaa
             final StringBuilder result = new StringBuilder();
             // アクセス先URL
             final URL url = urls[0];
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 con = (HttpURLConnection) url.openConnection();
                 con.connect();
 
-                // HTTPレスポンスコードzzz
+                // HTTPレスポンスコードzzza
                 final int status = con.getResponseCode();
                 if (status == HttpURLConnection.HTTP_OK) {
                     // 通信に成功した
