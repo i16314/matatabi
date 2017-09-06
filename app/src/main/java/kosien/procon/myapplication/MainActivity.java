@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 con = (HttpURLConnection) url.openConnection();
                 con.connect();
 
-                // HTTPレスポンスコード
+                // HTTPレスポンスコードzzz
                 final int status = con.getResponseCode();
                 if (status == HttpURLConnection.HTTP_OK) {
                     // 通信に成功した
