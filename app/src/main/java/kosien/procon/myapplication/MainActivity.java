@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected String doInBackground(URL... urls) {
-            // 取得したテキストを格納する変数
+            // 取得したテキストを格納する変数aaa
             final StringBuilder result = new StringBuilder();
             // アクセス先URL
             final URL url = urls[0];
